@@ -1,24 +1,19 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Home from "./Pages/Home";
 import NotFound from "./Pages/NotFound";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-
 import User from "./User/User";
 import AddUser from "./User/AddUser";
 import EditUser from "./User/EditUser";
-
-
 import NavBar from "./Components/NavBar";
 
 
 function App() {
-  const USERS_URL = "http://localhost:3000/users"
   const [users, setUsers] = useState([]);
-
+  const USERS_URL = "http://localhost:3000/users"
 
   useEffect(() => {
     fetch(USERS_URL)
