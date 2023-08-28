@@ -51,7 +51,6 @@ console.log(editedUser);
           onChange={Change}
           placeholder="Name"
         />
-        <br />
         <input
           type="text"
           name='username'
@@ -59,7 +58,6 @@ console.log(editedUser);
           onChange={Change}
           placeholder="Username"
         />
-        <br />
         <input
           type="email"
           name='email'
@@ -67,7 +65,6 @@ console.log(editedUser);
           onChange={Change}
           placeholder="Email"
         />
-        <br />
         <input
           type="tel"
           name='phone'
@@ -75,7 +72,6 @@ console.log(editedUser);
           onChange={Change}
           placeholder="Telephone"
         />
-        <br />
         <button type="button" onClick={Edit}>
           Edit User
         </button>
