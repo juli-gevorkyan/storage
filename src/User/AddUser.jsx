@@ -55,7 +55,6 @@ const AddUser = ({ users, setUsers, USERS_URL }) => {
           onChange={Change}
           placeholder="Write Your Name"
         />
-        <br />
         <input
           type="text"
           name="username"
@@ -63,7 +62,6 @@ const AddUser = ({ users, setUsers, USERS_URL }) => {
           onChange={Change}
           placeholder="Write Your Username"
         />
-        <br />
         <input
           type="email"
           name="email"
@@ -71,7 +69,6 @@ const AddUser = ({ users, setUsers, USERS_URL }) => {
           onChange={Change}
           placeholder="Write Your Email"
         />
-        <br />
         <input
           type="tel"
           name="phone"
@@ -79,7 +76,6 @@ const AddUser = ({ users, setUsers, USERS_URL }) => {
           onChange={Change}
           placeholder="Write Your Telephone"
         />
-        <br />
         <button type="submit" onClick={() => navigate(-1)}>
           Add
         </button>
